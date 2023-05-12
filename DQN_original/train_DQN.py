@@ -1276,8 +1276,8 @@ if __name__ == "__main__":
 
 
                 max_low_reward_list.append(max_low_reward)
-                overall_reward += max_low_reward
-                # overall_reward += 100 * max_low_reward
+                # overall_reward += max_low_reward
+                overall_reward += 60 * max_low_reward
                 agent.memory = []
                 gc.collect()
 

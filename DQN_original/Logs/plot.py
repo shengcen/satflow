@@ -16,4 +16,4 @@ for i in range(len(y)):
     x.append(i)
 
 plt.plot(x, y)
-plt.savefig("5,2,sw.jpg")
+plt.savefig("5,2,sw,小decay.jpg")
